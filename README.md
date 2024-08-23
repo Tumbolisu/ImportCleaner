@@ -2,13 +2,13 @@
 
 This Godot Engine plugin cleans up orphan files in the `res://.godot/imported` directory.
 
-Sometimes various metadata files are left behind in the afformentioned directory. This can easily happen when moving or renaming a file after importing it. Even after deleting an imported file, a MD5 metadata file may be left behind.
+Sometimes various metadata files are left behind in the aforementioned  directory. This can easily happen when moving or renaming a file after importing it. Even after deleting an imported file, an MD5 metadata file may be left behind.
 
-Most of these files are very very small, so it's usually not a problem. However, it still feels good to remove them.
+Most of these files are very, very small, so it's usually not a problem. However, it still feels good to remove them.
 
 ## Installation
 
-1. Install `ImportCleaner` via AssetLib. Alterantivly, download this project, copy the folder `ImportCleaner` and place it in your `res://addons/` folder.
+1. Install `ImportCleaner` via AssetLib. Alternatively, download this project, copy the folder `ImportCleaner` and place it in your `res://addons/` folder.
 2. Enable the plugin at `Project -> Project Settings -> Plugins`.
 
 ## Usage
